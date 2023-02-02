@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-cd ~/WebstormProjects/frontend-universe/packages/apps/classroom/ios || exit
+cd ~/WebstormProjects/frontend-universe/packages/apps/academy/ios || exit
 echo "========================================================"
 echo "installing pods"
 echo "========================================================"

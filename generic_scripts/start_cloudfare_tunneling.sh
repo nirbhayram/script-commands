@@ -1,9 +1,7 @@
 #!/bin/zsh
 
-cd ~/WebstormProjects/frontend-universe/packages/apps/academy || exit
-
 echo "========================================================"
-echo "starting web server"
+echo "starting cloudfare tunneling"
 echo "========================================================"
 
-yarn run dev
+cloudflared tunnel --url http://localhost:3000
